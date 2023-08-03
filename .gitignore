@@ -158,3 +158,35 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Python-specific ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.egg
+.cache/
+.pytest_cache/
+
+# Node.js and React-specific ignores
+/node_modules/
+/build/
+
+# IDE-specific ignores (optional, adjust based on your IDE/editor)
+.vscode/
+.idea/
+
+# Environment-specific ignores (optional, adjust based on your setup)
+.env
+.env.local
+.env.*.local
+
+# Compiled files (optional, adjust based on your project setup)
+*.scss
+*.css.map
+*.js.map
