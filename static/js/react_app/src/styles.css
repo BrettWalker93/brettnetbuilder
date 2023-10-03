@@ -1,0 +1,64 @@
+.layer-item {
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid #000000;
+  margin: 4px;
+  position: relative;
+  padding-right: 40px;
+}
+
+.layer-item.editing {
+  border: 2px dashed #000000;
+}
+
+.dd-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.repeats {
+  display: inline-flex;
+  position: relative;
+  padding-right: 15px;
+}
+.repeats-num {
+  position: absolute;
+  right: 0;
+}
+
+.layer-type {
+
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown.show {
+  display: block;
+}
+
+.arrow::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.28em;
+  vertical-align: 0.09em;
+  border-top: 0.42em solid;
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
+}
+
+.reg-child {
+  margin-left: 30px;
+}
+
+.reg-child-child {
+  margin-left: 30px;
+}
